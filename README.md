@@ -2,7 +2,7 @@
 A small R script for generating pangenome accumulation curves
 
 
-This R script will compute three type of pangenome-related accumulation curves (gene cluster accumulation, core genome and accumulation unique gene clusters) for a number of randomly sampled genomes based on a user defined number of permutations.
+This R script will compute three type of pangenome-related accumulation curves (gene cluster accumulation, core genome and accumulation unique gene clusters) for a number of randomly sampled genomes based on a user defined number of permutations. The output is a table summerizing the permutation results using "matrixStats" R package (https://github.com/HenrikBengtsson/matrixStats).
 
 **Usage**  
 source(“panplots.R”)  
